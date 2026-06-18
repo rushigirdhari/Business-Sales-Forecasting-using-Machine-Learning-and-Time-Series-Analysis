@@ -44,13 +44,15 @@ This project analyzes historical business sales data and predicts future sales u
 
 ## 🏆 Results
 
-| Model | RMSE |
-|--------|--------|
-| Linear Regression | XX |
-| Random Forest | XX |
-| XGBoost | XX |
+| Model | RMSE | Predicted Next Sales |
+|--------|--------|--------|
+| Linear Regression | 2.04 × 10⁻¹⁴ | 19,385.91 |
+| Random Forest | 0.1378 | 18,157.55 |
+| XGBoost | 0.1433 | 18,808.16 |
 
-XGBoost achieved the best forecasting performance.
+### Best Performing Model
+
+**Linear Regression** achieved the lowest RMSE on the processed dataset. However, Random Forest and XGBoost were also evaluated to compare forecasting performance and model robustness.
 
 ## 🛠️ Technologies Used
 
@@ -69,9 +71,11 @@ XGBoost achieved the best forecasting performance.
 - Prophet Forecasting
 - Hyperparameter Optimization
 - Streamlit Deployment
+- Interactive Forecast Dashboard
 
 ## 👨‍💻 Author
 
-Rushikesh Girdhari
+**Rushikesh Girdhari**
 
-B.Tech AIML | Symbiosis Institute of Technology, Pune
+B.Tech Artificial Intelligence & Machine Learning  
+Symbiosis Institute of Technology, Pune
